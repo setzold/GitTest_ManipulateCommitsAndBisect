@@ -29,3 +29,6 @@ packages/
 *.suo
 *.user
 *.DotSettings
+
+# exceptions
+!.nuget/NuGet.exe
