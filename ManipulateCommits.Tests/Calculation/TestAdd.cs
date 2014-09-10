@@ -18,5 +18,15 @@ namespace ManipulateCommits.Tests.Calculation
 
             Assert.AreEqual(9, result, "return value was not 9 !!!");
         }
+
+        [Test]
+        public void Test_Add_with_4point3_plus_5point4_expects_9point7()
+        {
+            var testClass = new Add();
+
+            decimal result = testClass.Plus(4.3m, 5.4m);
+
+            Assert.AreEqual(9.7, result, "return value was not 9.7 !!!");
+        }
     }
 }
