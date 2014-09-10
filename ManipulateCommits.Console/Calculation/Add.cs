@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ManipulateCommits.Console.Calculation
 {
-    public class Add
+    public class Addition
     {
         public int Plus(int a, int b)
         {

@@ -12,7 +12,7 @@ namespace ManipulateCommits.Tests.Calculation
         [Test]
         public void Test_Add_with_4_plus_5_expects_9()
         {
-            var testClass = new Add();
+            var testClass = new Addition();
 
             int result = testClass.Plus(4, 5);
 
@@ -22,7 +22,7 @@ namespace ManipulateCommits.Tests.Calculation
         [Test]
         public void Test_Add_with_4point3_plus_5point4_expects_9point7()
         {
-            var testClass = new Add();
+            var testClass = new Addition();
 
             decimal result = testClass.Plus(4.3m, 5.4m);
 
