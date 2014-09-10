@@ -11,5 +11,10 @@ namespace ManipulateCommits.Console.Calculation
         {
             return a + b;
         }
+
+        public decimal Plus(decimal a, decimal b)
+        {
+            return a + b;
+        }
     }
 }
