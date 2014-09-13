@@ -9,7 +9,7 @@ namespace ManipulateCommits.Console.Calculation
     {
         public int Minus(int a, int b)
         {
-            throw new NotImplementedException();
+            return a - b;
         }
     }
 }
