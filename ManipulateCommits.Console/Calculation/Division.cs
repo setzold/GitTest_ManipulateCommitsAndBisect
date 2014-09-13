@@ -5,11 +5,11 @@ using System.Text;
 
 namespace ManipulateCommits.Console.Calculation
 {
-    public class Subtraction
+    public class Division
     {
-        public int Minus(int a, int b)
+        public decimal divided(int a, int b)
         {
-            return a - b + 1;
+            return a / b;
         }
     }
 }
