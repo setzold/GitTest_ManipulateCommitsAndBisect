@@ -1,9 +1,5 @@
 ﻿using ManipulateCommits.Console.Calculation;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ManipulateCommits.Tests.Calculation
 {
@@ -20,5 +16,5 @@ namespace ManipulateCommits.Tests.Calculation
             Assert.AreEqual(20, result, "return value was not 20 !!!");
         }
     }
-         
+
 }
