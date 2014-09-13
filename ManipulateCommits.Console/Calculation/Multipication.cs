@@ -5,7 +5,11 @@ using System.Text;
 
 namespace ManipulateCommits.Console.Calculation
 {
-    class Multipication
+    public class Multipication
     {
+        public int Multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
